@@ -11,6 +11,12 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            TextBox1.Text = "test voor github";
+
+        }
+
+        protected void TextBox1_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
